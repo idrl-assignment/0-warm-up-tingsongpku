@@ -1,6 +1,8 @@
 # TODO: import ...
 import numpy as np
 import matplotlib.image as plt2
+
+
 def generate_random_matrix(m, n):
     matrix = np.random.randint(0, 2, size=(m, n))
     return matrix
